@@ -1,0 +1,197 @@
+:root {
+--text-primary: black;
+--text-secondary: rgb(102, 160, 16);
+--background: #dadada;
+--shadow-top: white;
+--shadow-bottom: #b5b5b5;
+}
+
+* {
+margin: 0;
+padding: 0;
+-webkit-tap-highlight-color: transparent;
+font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+width: 100%;
+height: 100%;
+background-color: var(--background);
+}
+
+/* Main Container */
+.container {
+width: 90vw;
+height: 97vh;
+margin: 10px auto;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+/* Container with stopwatch */
+.stopwatch-container {
+width: 95%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.time {
+display: flex;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.time div {
+font-size: 3rem;
+margin: 0px 4px;
+width: 65px;
+}
+
+.time span {
+font-size: 2.7rem;
+}
+
+.time .milli {
+width: 20px;
+margin: 0px -4px;
+font-size: 2rem;
+}
+
+/* animation part */
+
+.circle {
+height: 300px;
+width: 300px;
+position: relative;
+
+border-radius: 50%;
+background: var(--background);
+box-shadow: 20px 20px 48px var(--shadow-bottom),
+    -20px -20px 48px var(--shadow-top);
+}
+
+.inner {
+width: 100%;
+height: 100%;
+}
+
+.moving {
+height: 3%;
+width: 3%;
+border-radius: 50%;
+background-color: var(--text-secondary);
+position: absolute;
+top: 4%;
+left: 47%;
+}
+
+/* buttons */
+.controls {
+margin-top: 20px;
+}
+
+.controls button {
+width: 130px;
+height: 42px;
+border: none;
+border-radius: 20px;
+font-size: 1.1rem;
+padding: 5px;
+cursor: pointer;
+}
+
+.controls .start {
+border-radius: 20px;
+background: var(--background);
+box-shadow: 5px 5px 13px var(--shadow-bottom),
+    -5px -5px 13px var(--shadow-top);
+}
+
+.controls .start:hover {
+transform: scale(1.05);
+}
+
+.controls .reset,
+.controls .flag {
+position: relative;
+top: 5px;
+width: fit-content;
+height: fit-content;
+background-color: transparent;
+font-size: 2rem;
+margin: auto 20px;
+}
+
+.flag i,
+.reset i {
+color: var(--text-secondary);
+}
+
+/* Time-Stamps */
+.time-stamps-container {
+width: 95%;
+height: 45vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+overflow-y: scroll;
+}
+
+.time-stamp-card {
+margin-top: 20px;
+width: 200px;
+padding: 10px;
+color: var(--text-primary);
+
+border-radius: 20px;
+background: var(--background);
+box-shadow: 6px 6px 20px var(--shadow-bottom),
+    -6px -6px 20px var(--shadow-top);
+}
+
+.time-stamp-card span {
+color: var(--text-secondary);
+display: inline-block;
+margin-left: 5px;
+width: 60px;
+}
+
+/* fullscreen button */
+.fullscreen {
+width: fit-content;
+height: fit-content;
+position: absolute;
+left: 30px;
+bottom: 20px;
+cursor: pointer;
+transition: all 0.5s;
+}
+
+.fullscreen i {
+color: var(--text-secondary);
+font-size: 2rem;
+text-align: center;
+}
+
+/* Rotate class is added on runtime to rotate reset button by 360degrees */
+.rotate {
+transition: transform 0.5s linear;
+transform: rotate(360deg);
+}
+
+/* To hide scroll  bar */
+.time-stamps-container {
+-ms-overflow-style: none; /* Internet Explorer 10+ */
+scrollbar-width: none; /* Firefox */
+}
+.time-stamps-container::-webkit-scrollbar {
+display: none; /* Safari and Chrome */
+}

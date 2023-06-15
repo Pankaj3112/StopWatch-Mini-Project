@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1dd0c8a742.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch-container">
+            <div class="circle">
+                <div class="time">
+                    <div class="minute">00</div>
+                    <span>:</span> <div class="second">00</div>
+                    <div class="milli">00</div>
+                </div>
+                <div class="inner">
+                    <div class="moving"></div>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button class="reset"><i class="fa-solid fa-rotate-right"></i></button>
+                <button class="start">Start</button>
+                <button class="flag"><i class="fa-regular fa-flag"></i></button>
+            </div>
+        </div>
+
+        <div class="time-stamps-container">
+        </div>
+    </div>
+
+    <div class="fullscreen">
+        <i class="fa-solid fa-expand"></i>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
