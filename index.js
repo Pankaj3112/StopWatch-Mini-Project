@@ -38,7 +38,7 @@ function startFunction() {
     let minute = parseInt(minuteElement.textContent);
 
     //Updating milli, second, and minute
-    milli += 1;
+    milli += 5;
 
     if (milli > 99) {
       second++;
@@ -71,9 +71,9 @@ function startFunction() {
 
     //rotating dot animation
     currRotate = currRotate % 360;
-    currRotate += 0.06;
+    currRotate += 0.3;
     moving.style.transform = `rotate(${currRotate}deg)`;
-  }, 10);
+  }, 43);
 }
 
 //This function basically resets all the values
