@@ -1,21 +1,24 @@
+//----------------------------VARIABLES------------------------------------
 //accessing all the elements that display time
-var minuteElement = document.querySelector(".minute");
-var secondElement = document.querySelector(".second");
-var milliElement = document.querySelector(".milli");
+const minuteElement = document.querySelector(".minute");
+const secondElement = document.querySelector(".second");
+const milliElement = document.querySelector(".milli");
 
 //moving is the dot that rotates in circular motion
-var moving = document.querySelector(".inner");
+const moving = document.querySelector(".inner");
 
+//----------------------------EVENT LISTENERS------------------------------------
 //accessing controls
 document.querySelector(".start").addEventListener("click", startFunction);
 document.querySelector(".reset").addEventListener("click", resetFunction);
 document.querySelector(".flag").addEventListener("click", flagFunction);
 
 //Initialised watchInterval , running and currRotation to use them in diffrent functions
-var watchInterval;
-var currRotate = 0;
-var running = false;
+let watchInterval;
+let currRotate = 0;
+let running = false;
 
+//----------------------------FUNCTIONS------------------------------------
 //Main function  that starts and stops the watch
 function startFunction() {
   //if watch is running then it stops it by clearing Interval
