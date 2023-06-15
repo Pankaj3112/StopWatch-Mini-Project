@@ -2,6 +2,7 @@
 # StopWatch
 
 A simple and minimalistic StopWatch with functionalities like Start , Stop, Reset.
+
 Website Link: https://pankaj3112.github.io/StopWatch-Mini-Project/
 
 ## Screenshots
