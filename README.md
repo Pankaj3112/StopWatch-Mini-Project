@@ -8,8 +8,6 @@ A simple and minimalistic StopWatch with functionalities like Start, Stop, Reset
 
 ![Screenshot](screenshots/Screenshot3.png)
 
-
-
 ## Features
 
 - Start the stopwatch
