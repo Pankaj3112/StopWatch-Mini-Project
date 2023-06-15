@@ -1,7 +1,7 @@
 
 # StopWatch
 
-A simple and minimalistic StopWatch with functionalities like Start, Stop, Reset.
+A simple and minimalistic StopWatch with functionalities like Start , Stop, Reset.
 
 
 ## Screenshots
