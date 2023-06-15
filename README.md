@@ -6,11 +6,11 @@ A simple and minimalistic StopWatch with functionalities like Start, Stop, Reset
 
 ## Screenshots
 
-![Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot](screenshots/Screenshot1.png)
 
-![Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot](screenshots/Screenshot2.png)
 
-![Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot](screenshots/Screenshot3.png)
 
 
 
