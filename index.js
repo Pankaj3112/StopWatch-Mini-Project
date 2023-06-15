@@ -78,6 +78,8 @@ function startFunction() {
 
 //This function basically resets all the values
 function resetFunction() {
+  if(milliElement.innerHTML== 0) return;
+
   //clearing the Interval
   window.clearInterval(watchInterval);
   running = false;

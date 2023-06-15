@@ -183,7 +183,7 @@ text-align: center;
 
 /* Rotate class is added on runtime to rotate reset button by 360degrees */
 .rotate {
-transition: transform 43ms linear;
+transition: transform 0.5s linear;
 transform: rotate(360deg);
 }
 
