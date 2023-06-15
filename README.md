@@ -6,11 +6,11 @@ A simple and minimalistic StopWatch with functionalities like Start, Stop, Reset
 
 ## Screenshots
 
-![Screenshot](screenshots/Screenshot1.png)
+![Screenshot](/screenshots/Screenshot1.png)
 
-![Screenshot](screenshots/Screenshot2.png)
+![Screenshot](/screenshots/Screenshot2.png)
 
-![Screenshot](screenshots/Screenshot3.png)
+![Screenshot](/screenshots/Screenshot3.png)
 
 
 
