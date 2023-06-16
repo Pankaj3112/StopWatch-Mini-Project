@@ -169,7 +169,7 @@ width: 60px;
 width: fit-content;
 height: fit-content;
 position: absolute;
-left: 30px;
+right: 30px;
 bottom: 20px;
 cursor: pointer;
 transition: all 0.5s;
